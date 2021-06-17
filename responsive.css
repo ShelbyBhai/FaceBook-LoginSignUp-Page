@@ -1,0 +1,53 @@
+@media screen and (max-width:980px) {
+  .logo{
+  width: 100%;
+  float: none;
+  text-align: center;
+  }
+  .login{
+    width: 85%;
+    float:none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+  }
+
+  .login form{
+    float: none;
+  }
+  .intro{
+    float: none;
+    width: 100%;
+  }
+  .create_account{
+    float: none;
+    width: 100%;
+  }
+  .intro>p{
+    width: 100%;
+  }
+  .intro>img{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:768px){
+  .login {
+    width: 100%;
+    justify-content: center;
+  }
+  .login .email, .pass, .login-btn{
+    float: none;
+    margin-right: 0;
+  }
+
+  .login input[type="text"],
+  .login input[type="password"]{
+    width:100%;
+    box-sizing: border-box;
+  }
+  .login input[type="submit"]{
+    margin-top: 10px;
+  }
+
+}
